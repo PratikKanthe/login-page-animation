@@ -5,3 +5,17 @@
     --clr4: #1E5B85;
     --clr5:#939598;
 }
+
+.truck{
+    fill: green;
+    animation: move 1s linear infinite;
+}
+
+@keyframes move {
+    0%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left: 50%;
+    }
+}

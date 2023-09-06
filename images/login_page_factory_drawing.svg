@@ -48,11 +48,93 @@
 
 
 	<!-- my styles -->
-	.guess{
-		width: 40vw;
-		margin-bottom: 10rem;
-		animation: rotate 2s linear infinite;
+
+	<!-- truck1 -->
+	.truck{
+		fill: green;
+		animation: move 1s linear infinite;
 	}
+
+	@keyframes move {
+		0%{
+			margin-left: 0;
+		}
+		50%{
+			margin-left: 50%;
+		}
+	}
+
+	<!-- signal -->
+	
+	.red{
+	animation: red 10s linear infinite;
+	}
+
+
+	@keyframes red {
+	0% {
+		fill: black;
+	}
+	2%,
+	30% {
+		fill: red;
+	}
+	31%,
+	42%{
+		fill: black;
+	}
+	42%,
+	100% {
+		fill: black;
+	}
+	}
+
+
+	.yellow{
+	animation: yellow 10s linear infinite;
+	}
+
+
+	@keyframes yellow {
+	0%,
+	20% {
+		fill: black;
+	}
+	22%,
+	40% {
+		fill: yellow;
+	}
+	42%,
+	80% {
+		fill: black;
+	}
+	82%,
+	100% {
+		fill: yellow;
+	}
+	}
+
+
+	.green{
+	animation: green 10s linear infinite;
+	}
+
+
+	@keyframes green {
+	0%,
+	40% {
+		fill: black;
+	}
+	42%,
+	80% {
+		fill: green;
+	}
+	82%,
+	100% {
+		fill: black;
+	}
+	}
+
 	.eye1{
 		animation: blink 5s linear infinite;
 	}
@@ -103,13 +185,13 @@
 	C746.3,255.6,744,257.9,741.1,257.9z"/>
 
 <!-- signal 2 green -->
-<circle class="st4" cx="651.8" cy="237.6" r="3.2"/>
+<circle class="st4 green" cx="651.8" cy="237.6" r="3.2"/>
 
 <!-- signal 2 yellow -->
-<circle class="st5" cx="651.8" cy="229" r="3.2"/>
+<circle class="st5 yellow" cx="651.8" cy="229" r="3.2"/>
 
 <!-- signal 2 red -->
-<circle class="st6" cx="651.8" cy="220.4" r="3.2"/>
+<circle class="st6 red" cx="651.8" cy="220.4" r="3.2"/>
 
 <!-- signal 1 bg -->
 <path class="st7" d="M568.9,245.9h-0.2c-2.9,0-5.2-2.3-5.2-5.2v-21.4c0-2.9,2.3-5.2,5.2-5.2h0.2c2.9,0,5.2,2.3,5.2,5.2v21.4
@@ -336,14 +418,14 @@
 <path class="st10 truck1" d="M224.6,130.3h17c0,0-3.4-7-6-11.9c-1.6-2.9-2.4-5-4.9-5c-2.3,0-6.2,0-6.2,0V130.3z"/>
 
 <!-- truck tire front -->
-<g class="truck1">
+<g>
 
 	<g>
-		<circle class="st12" cx="235.6" cy="150.6" r="7.9"/>
+		<circle class="st12 truck1" cx="235.6" cy="150.6" r="7.9"/>
 		
-			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 49.1911 359.0845)" class="st13" cx="235.6" cy="150.6" rx="7.9" ry="7.9"/>
+			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 49.1911 359.0845)" class="st13 truck1" cx="235.6" cy="150.6" rx="7.9" ry="7.9"/>
 	</g>
-	<circle class="st14" cx="235.6" cy="150.6" r="4"/>
+	<circle class="st14 truck1" cx="235.6" cy="150.6" r="4"/>
 </g>
 
 <!-- boxes on truck -->
@@ -423,9 +505,9 @@
 
 
 <!-- signal 3 circles -->
-<circle class="st4" cx="741" cy="250.1" r="3.2"/>
-<circle class="st5" cx="741" cy="241.4" r="3.2"/>
-<circle class="st6" cx="741" cy="232.8" r="3.2"/>
+<circle class="st4 green" cx="741" cy="250.1" r="3.2"/>
+<circle class="st5 yellow" cx="741" cy="241.4" r="3.2"/>
+<circle class="st6 red" cx="741" cy="232.8" r="3.2"/>
 
 <!-- square to circles  -->
 <circle class="st19" cx="766.9" cy="302.7" r="5"/>
@@ -464,9 +546,9 @@
 	C617.5,305.8,616,307.3,614.1,307.3z"/>
 
 <!-- circle of signal 1 -->
-<circle class="st4" cx="568.5" cy="237.6" r="3.2"/>
-<circle class="st5" cx="568.5" cy="229" r="3.2"/>
-<circle class="st6" cx="568.5" cy="220.4" r="3.2"/>
+<circle class="st4 green" cx="568.5" cy="237.6" r="3.2"/>
+<circle class="st5 yellow" cx="568.5" cy="229" r="3.2"/>
+<circle class="st6 red" cx="568.5" cy="220.4" r="3.2"/>
 
 <!-- factory machine road-->
 <g>
@@ -576,9 +658,9 @@
 		C391.3,50.4,389,52.7,386.1,52.7z"/>
 	
 	<!-- circles of signal near truck 1 -->
-	<circle class="st4" cx="386" cy="44.5" r="3.2"/>
-	<circle class="st5" cx="386" cy="35.8" r="3.2"/>
-	<circle class="st6" cx="386" cy="27.2" r="3.2"/>
+	<circle class="st4 green" cx="386" cy="44.5" r="3.2"/>
+	<circle class="st5 yellow" cx="386" cy="35.8" r="3.2"/>
+	<circle class="st6 red" cx="386" cy="27.2" r="3.2"/>
 </g>
 
 <!-- bulding near truck1 -->
@@ -611,14 +693,14 @@
 
 
 <!-- first truck back tire -->
-<g class="truck1">
+<g>
 
 	<g>
-		<circle class="st12" cx="164.7" cy="150.6" r="7.9"/>
+		<circle class="st12 truck1" cx="164.7" cy="150.6" r="7.9"/>
 		
-			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 -10.3382 289.1162)" class="st13" cx="164.7" cy="150.6" rx="7.9" ry="7.9"/>
+			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 -10.3382 289.1162)" class="st13 truck1" cx="164.7" cy="150.6" rx="7.9" ry="7.9"/>
 	</g>
-	<circle class="st14" cx="164.7" cy="150.6" r="4"/>
+	<circle class="st14 truck1" cx="164.7" cy="150.6" r="4"/>
 </g>
 
 <!-- boxes on road -->
