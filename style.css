@@ -1,21 +1,79 @@
-:root{
-    --clr1: #6D6E71;
-    --clr2: #2BB673;
-    --clr3: #006838;
-    --clr4: #1E5B85;
-    --clr5:#939598;
+:root {
+  --clr1: #6d6e71;
+  --clr2: #2bb673;
+  --clr3: #006838;
+  --clr4: #1e5b85;
+  --clr5: #939598;
 }
 
-.truck{
-    fill: green;
-    animation: move 1s linear infinite;
+.truck {
+  fill: green;
+  animation: move 1s linear infinite;
 }
 
 @keyframes move {
-    0%{
-        margin-left: 0;
-    }
-    50%{
-        margin-left: 50%;
-    }
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 50%;
+  }
+}
+
+.open {
+  position: absolute;
+  fill: red;
+  animation: stopper 1s linear infinite;
+}
+
+@keyframes stopper {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 50%;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@keyframes moveTruck {
+  from {
+    transform: translateX(-150);
+  }
+  to {
+    transform: translateX(
+      0px
+    ); 
+  }
+}
+
+.truck1 {
+  animation: moveTruck 5s linear infinite;
+}
+
+.ss-truck {
+  position: absolute;
+  animation-name: go;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+@keyframes go {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: 25%;
+  }
+  50% {
+    left: 50%;
+  }
+  75% {
+    left: 75%;
+  }
+  100% {
+    left: 100%;
+  }
 }
