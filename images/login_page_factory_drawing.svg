@@ -65,108 +65,139 @@
 		}
 		
 		@keyframes countUp8 {
-		from {
-		transform: translateY(-10%);
+		0% {
+		transform: translateY(-20%);
 		opacity: 0;
 		}
-		to {
+		10% {
 		transform: translateY(0);
 		opacity: 1;
 		}
 		}
 		
 		.count8 {
-		animation: countUp8 1s ease-in-out;
+		animation: countUp8 3s ease-in-out infinite;
 		}
 		<!-- 7 -->
 		@keyframes countUp7 {
-		from {
+			0%{
+				
+		transform: translateY(-20%);
+		opacity: 0;
+			}
+		10% {
 		transform: translateY(-20%);
 		opacity: 0;
 		}
-		to {
+		20% {
 		transform: translateY(0);
 		opacity: 1;
 		}
 		}
 		
 		.count7 {
-		animation: countUp7 2s ease-in-out;
+		animation: countUp7 3s ease-in-out infinite;
 		}
 		<!-- 6 -->
 		@keyframes countUp6 {
-		from {
-		transform: translateY(-30%);
+		0%{
+				
+		transform: translateY(-20%);
+		opacity: 0;
+			}
+			
+		20% {
+		transform: translateY(-20%);
 		opacity: 0;
 		}
-		to {
+		30% {
 		transform: translateY(0);
 		opacity: 1;
 		}
 		}
 		
 		.count6 {
-		animation: countUp6 3s ease-in-out;
+		animation: countUp6 3s ease-in-out infinite;
 		}
 		<!-- 5 -->
 		@keyframes countUp5 {
-		from {
-		transform: translateY(-40%);
+		0%{
+				
+		transform: translateY(-20%);
+		opacity: 0;
+			}
+		30% {
+		transform: translateY(-20%);
 		opacity: 0;
 		}
-		to {
+		40% {
 		transform: translateY(0);
 		opacity: 1;
 		}
 		}
 		
 		.count5 {
-		animation: countUp5 4s ease-in-out;
+		animation: countUp5 3s ease-in-out infinite;
 		}
 		<!-- 4 -->
 		@keyframes countUp4 {
-		from {
-		transform: translateY(-50%);
+		0%{
+				
+		transform: translateY(-20%);
+		opacity: 0;
+			}
+		40% {
+		transform: translateY(-20%);
 		opacity: 0;
 		}
-		to {
+		50% {
 		transform: translateY(0);
 		opacity: 1;
 		}
 		}
 		
 		.count4 {
-		animation: countUp4 5s ease-in-out;
+		animation: countUp4 3s ease-in-out infinite;
 		}
 		<!-- 3 -->
 		@keyframes countUp3 {
-		from {
-		transform: translateY(-60%);
+		0%{
+				
+		transform: translateY(-20%);
+		opacity: 0;
+			}
+		50% {
+		transform: translateY(-20%);
 		opacity: 0;
 		}
-		to {
+		60% {
 		transform: translateY(0);
 		opacity: 1;
 		}
 		}
 		
 		.count3 {
-		animation: countUp3 6s ease-in-out;
+		animation: countUp3 3s ease-in-out infinite;
 		}
 		<!-- 2 -->
 		@keyframes countUp2 {
-		from {
-		transform: translateY(-60%);
+		0%{
+				
+		transform: translateY(-20%);
+		opacity: 0;
+			}
+		60% {
+		transform: translateY(-20%);
 		opacity: 0;
 		}
-		to {
+		70% {
 		transform: translateY(0);
 		opacity: 1;
 		}
 		}
 		
 		.count2 {
-		animation: countUp2 7s ease-in-out;
+		animation: countUp2 3s ease-in-out infinite;
 		}
 		
 		.gift1{
@@ -436,7 +467,7 @@
 		.yellow{
 		animation: yellow 10s linear infinite;
 		}
-		
+				
 		
 		@keyframes yellow {
 		0%,
