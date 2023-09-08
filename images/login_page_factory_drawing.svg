@@ -217,7 +217,7 @@
 		100% {transform: translateX(0,10%,0); fill: green;}
 		}
 		.jump {
-		animation: jump .5s linear alternate infinite;
+		animation: jump 3s linear alternate infinite;
 		}
 
 		
