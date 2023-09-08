@@ -36,10 +36,13 @@
 	}
 
 	@keyframes clr {
-		from{
-			fill: #D1D3D4
+		0%{
+			fill: #D1D3D4;
 		}
-		to{
+		50%{
+			fill: #EF4136;
+		}
+		100%{
 			fill: #EF4136;
 		}
 	}

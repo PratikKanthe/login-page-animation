@@ -52,10 +52,13 @@
 	}
 
 	@keyframes clr {
-		from{
+		0%{
 			fill: #D1D3D;
 		}
-		to{
+		50%{
+			fill: #48B55A;
+		}
+		100%{
 			fill: #48B55A;
 		}
 	}
