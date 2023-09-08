@@ -4,6 +4,15 @@
   --clr3: #006838;
   --clr4: #1e5b85;
   --clr5: #939598;
+  --light-body: #fff;
+  --clr-text: black;
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --light-body: black;
+    --clr-text: #fff;
+  }
 }
 
 .truck {
