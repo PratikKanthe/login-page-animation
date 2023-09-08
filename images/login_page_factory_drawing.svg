@@ -87,7 +87,7 @@
 		}
 
 		.mb4{
-			animation: mb4 5s linear infinite;
+			animation: mb3 5s linear infinite;
 		}
 
 		@keyframes mb4 {
@@ -506,94 +506,94 @@
 		}
 		<!-- wifi -->
 		.wf0 {
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		
 		.wf1 {
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		
 		.wf2 {
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		
 		.wf3 {
-		fill: gray;
+		fill: #cbd5e1;
 		animation: wf3 5s linear infinite;
 		}
 		
 		@keyframes wf3 {
 		0%{
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		20%{
-		fill: green;
+		fill: #00ff5d;
 		}
 		100%{
-		fill: green;
+		fill: #00ff5d;
 		}
 		}
 		
 		.wf2 {
-		fill: gray;
+		fill: #cbd5e1;
 		animation: wf2 5s linear infinite;
 		}
 		
 		@keyframes wf2 {
 		0%{
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		20%,
 		35%{
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		40%{
-		fill: green;
+		fill: #00ff5d;
 		}
 		100%{
-		fill: green;
+		fill: #00ff5d;
 		}
 		}
 		
 		.wf1 {
-		fill: gray;
+		fill: #cbd5e1;
 		animation: wf1 5s linear infinite;
 		}
 		
 		@keyframes wf1 {
 		0%{
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		20%,
 		55%{
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		60%{
-		fill: green;
+		fill: #00ff5d;
 		}
 		100%{
-		fill: green;
+		fill: #00ff5d;
 		}
 		}
 		
 		.wf0 {
-		fill: gray;
+		fill: #cbd5e1;
 		animation: wf0 5s linear infinite;
 		}
 		
 		@keyframes wf0 {
 		0%{
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		20%,
 		65%{
-		fill: gray;
+		fill: #cbd5e1;
 		}
 		85%,{
 		
 		}
 		100%{
-		fill: green;
+		fill: #00ff5d;
 		}
 		}
 		<!-- truck1 -->
