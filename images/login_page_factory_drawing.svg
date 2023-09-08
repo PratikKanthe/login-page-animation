@@ -45,175 +45,173 @@
 		.st40{fill:#39B54A;}
 		.st41{fill:#176D64;}
 		<!-- my styles -->
-
-
 		.st37{
 		animation: clr 5s linear infinite;
-	}
-
-	@keyframes clr {
-		0%{
-			fill: #D1D3D;
-		}
-		50%{
-			fill: #48B55A;
-		}
-		100%{
-			fill: #48B55A;
-		}
-	}
-
-		.lift{
-			animation: lift 5s linear infinite;
-		}
-
-		@keyframes lift {
-			0%{
-				transform: translateY(-20px);
-			}
-			50%{
-				transform: translateY(0px);
-			}
-		}
-
-		.mb3{
-			animation: mb3 5s linear infinite;
-		}
-
-		@keyframes mb3 {
-			0%{
-				transform: translateX(0px);
-			}
-			50%{
-				transform: translateX(10px);
-			}
-		}
-
-		.mb4{
-			animation: mb3 5s linear infinite;
-		}
-
-		@keyframes mb4 {
-			0%, 50%{
-				transform: translateX(0px);
-			}
-
-			52%,100%{
-				transform: translateX(10px);
-			}
-		}
-
-		.mb5{
-			animation: mb5 5s linear infinite;
-		}
-
-		@keyframes mb5 {
-			0%{
-				transform: translateX(0px);
-			}
-			50%{
-				transform: translateX(15px);
-			}
 		}
 		
-
+		@keyframes clr {
+		0%{
+		fill: #D1D3D;
+		}
+		50%{
+		fill: #48B55A;
+		}
+		100%{
+		fill: #48B55A;
+		}
+		}
+		
+		.lift{
+		animation: lift 5s linear infinite;
+		}
+		
+		@keyframes lift {
+		0%{
+		transform: translateY(-20px);
+		}
+		50%{
+		transform: translateY(0px);
+		}
+		}
+		
+		.mb3{
+		animation: mb3 5s linear infinite;
+		}
+		
+		@keyframes mb3 {
+		0%{
+		transform: translateX(0px);
+		}
+		50%{
+		transform: translateX(10px);
+		}
+		}
+		
+		.mb4{
+		animation: mb3 5s linear infinite;
+		}
+		
+		@keyframes mb4 {
+		0%, 50%{
+		transform: translateX(0px);
+		}
+		
+		52%,100%{
+		transform: translateX(10px);
+		}
+		}
+		
+		.mb5{
+		animation: mb5 5s linear infinite;
+		}
+		
+		@keyframes mb5 {
+		0%{
+		transform: translateX(0px);
+		}
+		50%{
+		transform: translateX(15px);
+		}
+		}
+		
+		
 		.drop-box1{
-			animation: drop-box1 3s linear infinite;
+		animation: drop-box1 3s linear infinite;
 		}
-
+		
 		@keyframes drop-box1 {
-			0%{
-				transform: rotate(-0.5deg);
-				opacity: 1;
-			}
-			50%{
-				transform: rotate(1deg);
-				opacity: 1;
-			}
-			52%,100%{
-				opacity: 0;
-			}
+		0%{
+		transform: rotate(-0.5deg);
+		opacity: 1;
 		}
-
+		50%{
+		transform: rotate(1deg);
+		opacity: 1;
+		}
+		52%,100%{
+		opacity: 0;
+		}
+		}
+		
 		.drop-box2{
-			animation: drop-box2 3s linear infinite;
+		animation: drop-box2 3s linear infinite;
 		}
-
+		
 		@keyframes drop-box2 {
-			0%,50%{
-				opacity: 0;
-			}
-			52%{
-				transform: rotate(0);
-				opacity: 1;
-			}
-			100%{
-				transform: rotateX(3deg)
-			}
+		0%,50%{
+		opacity: 0;
 		}
-
+		52%{
+		transform: rotate(0);
+		opacity: 1;
+		}
+		100%{
+		transform: rotateX(3deg)
+		}
+		}
+		
 		.cross-box{
-			animation: cross-box 5s linear infinite;
+		animation: cross-box 5s linear infinite;
 		}
-
+		
 		@keyframes cross-box {
-			0%{
-				transform: translateY(-20px);
-			}
-			50%{
-				transform: translateY(0px)
-			}
-			52%{
-				transform: rotate(0);
-			}
-			100%{
-				transform: rotate(-2deg)
-			}
+		0%{
+		transform: translateY(-20px);
 		}
-
+		50%{
+		transform: translateY(0px)
+		}
+		52%{
+		transform: rotate(0);
+		}
+		100%{
+		transform: rotate(-2deg)
+		}
+		}
+		
 		.move-box{
-			animation: move-box 5s linear infinite;
+		animation: move-box 5s linear infinite;
 		}
-
+		
 		@keyframes move-box {
-			from{
-				transform: translateX(0px);
-			}
-			to{
-				transform: translateX(55px)
-			}
+		from{
+		transform: translateX(0px);
 		}
-
+		to{
+		transform: translateX(55px)
+		}
+		}
+		
 		.move-box2{
-			animation: move-box2 5s linear infinite;
+		animation: move-box2 5s linear infinite;
 		}
-
+		
 		@keyframes move-box2 {
-			from{
-				transform: translateX(0px);
-			}
-			to{
-				transform: translateX(10px)
-			}
+		from{
+		transform: translateX(0px);
 		}
-
-
-
+		to{
+		transform: translateX(10px)
+		}
+		}
+		
+		
+		
 		.change{
-			animation: change 5s linear infinite;
+		animation: change 5s linear infinite;
 		}
 		@keyframes change {
-			0%{
-				opacity: 0;
-			}
-			95%{
-				opacity: 0;
-			}
-			100%{
-				opacity: 1;
-			}
+		0%{
+		opacity: 0;
 		}
-
+		95%{
+		opacity: 0;
+		}
+		100%{
+		opacity: 1;
+		}
+		}
+		
 		@keyframes jump {
 		0%   {transform: translateX(0)}
 		40%  {transform: translateY(-20px);}
@@ -222,11 +220,11 @@
 		.jump {
 		animation: jump 3s linear alternate infinite;
 		}
-
 		
-
+		
+		
 		.load{
-			animation: load 5s linear infinite;
+		animation: load 5s linear infinite;
 		}
 		@keyframes load {
 		0%{transform: translateX(-150px);}
@@ -251,11 +249,11 @@
 		}
 		<!-- 7 -->
 		@keyframes countUp7 {
-			0%{
-				
+		0%{
+		
 		transform: translateY(-20%);
 		opacity: 0;
-			}
+		}
 		10% {
 		transform: translateY(-20%);
 		opacity: 0;
@@ -272,11 +270,11 @@
 		<!-- 6 -->
 		@keyframes countUp6 {
 		0%{
-				
+		
 		transform: translateY(-20%);
 		opacity: 0;
-			}
-			
+		}
+		
 		20% {
 		transform: translateY(-20%);
 		opacity: 0;
@@ -293,10 +291,10 @@
 		<!-- 5 -->
 		@keyframes countUp5 {
 		0%{
-				
+		
 		transform: translateY(-20%);
 		opacity: 0;
-			}
+		}
 		30% {
 		transform: translateY(-20%);
 		opacity: 0;
@@ -313,10 +311,10 @@
 		<!-- 4 -->
 		@keyframes countUp4 {
 		0%{
-				
+		
 		transform: translateY(-20%);
 		opacity: 0;
-			}
+		}
 		40% {
 		transform: translateY(-20%);
 		opacity: 0;
@@ -333,10 +331,10 @@
 		<!-- 3 -->
 		@keyframes countUp3 {
 		0%{
-				
+		
 		transform: translateY(-20%);
 		opacity: 0;
-			}
+		}
 		50% {
 		transform: translateY(-20%);
 		opacity: 0;
@@ -353,10 +351,10 @@
 		<!-- 2 -->
 		@keyframes countUp2 {
 		0%{
-				
+		
 		transform: translateY(-20%);
 		opacity: 0;
-			}
+		}
 		60% {
 		transform: translateY(-20%);
 		opacity: 0;
@@ -374,17 +372,17 @@
 		.gift1{
 		animation: jump-shaking 3s infinite;
 		}
-
+		
 		@keyframes jump-shaking{
-			0%{
-				opacity: 0;
-			}
-			1%,100%{
-				opacity: 1;
-			}
+		0%{
+		opacity: 0;
 		}
-
-
+		1%,100%{
+		opacity: 1;
+		}
+		}
+		
+		
 		
 		
 		.up{
@@ -641,7 +639,7 @@
 		.yellow{
 		animation: yellow 10s linear infinite;
 		}
-				
+		
 		
 		@keyframes yellow {
 		0%,
@@ -1277,11 +1275,13 @@
 		c0.2,0,0.5,0.3,0.7,0.9l0.1,0.3c0.5-0.8,1.1-1.6,1.9-2.4C409.8,148.7,410.6,148.2,411.3,147.7z" />
 	</g>
 	<!-- box 2 right tick -->
-	<!-- <g>
-		<path class="st32" d="M432,147.7l0.2,0.2c-0.6,0.5-1.3,1.2-2.1,2.1s-1.3,1.9-1.7,2.7L428,153c-0.3,0.2-0.4,0.3-0.5,0.4
-		c0-0.1-0.1-0.4-0.2-0.7l-0.1-0.3c-0.2-0.4-0.3-0.7-0.5-0.9c-0.1-0.2-0.3-0.3-0.5-0.4c0.3-0.3,0.6-0.5,0.9-0.5
-		c0.2,0,0.5,0.3,0.7,0.9l0.1,0.3c0.5-0.8,1.1-1.6,1.9-2.4C430.5,148.7,431.2,148.2,432,147.7z" />
-	</g> -->
+	<!--
+	<g>
+	<path class="st32" d="M432,147.7l0.2,0.2c-0.6,0.5-1.3,1.2-2.1,2.1s-1.3,1.9-1.7,2.7L428,153c-0.3,0.2-0.4,0.3-0.5,0.4
+	c0-0.1-0.1-0.4-0.2-0.7l-0.1-0.3c-0.2-0.4-0.3-0.7-0.5-0.9c-0.1-0.2-0.3-0.3-0.5-0.4c0.3-0.3,0.6-0.5,0.9-0.5
+	c0.2,0,0.5,0.3,0.7,0.9l0.1,0.3c0.5-0.8,1.1-1.6,1.9-2.4C430.5,148.7,431.2,148.2,432,147.7z" />
+	</g>
+	-->
 	<!-- box of cross tick -->
 	<path class="st15" d="M351.3,133.1h-7.8c-0.6,0-1.1-0.5-1.1-1.1v-7.8c0-0.6,0.5-1.1,1.1-1.1h7.8c0.6,0,1.1,0.5,1.1,1.1v7.8
 	C352.4,132.6,351.9,133.1,351.3,133.1z" />
