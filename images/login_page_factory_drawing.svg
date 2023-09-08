@@ -46,6 +46,20 @@
 		.st41{fill:#176D64;}
 		<!-- my styles -->
 
+
+		.st37{
+		animation: clr 5s linear infinite;
+	}
+
+	@keyframes clr {
+		from{
+			fill: #D1D3D;
+		}
+		to{
+			fill: #48B55A;
+		}
+	}
+
 		.lift{
 			animation: lift 5s linear infinite;
 		}
