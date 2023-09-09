@@ -210,9 +210,9 @@
 		}
 		@keyframes load {
 		0%{transform: translateX(-150px);}
-		1%,94%{opacity: 1;}
-		95%{opacity: 0;}
-		100% {transform: translateX(0px); opacity: 0;}
+		1%,44%{opacity: 1;}
+		45%{opacity: 0;}
+		50%,100% {transform: translateX(0px); opacity: 0;}
 		}
 		
 		@keyframes countUp8 {
@@ -426,7 +426,7 @@
 		0% {
 		transform: translateX(-150px);
 		}
-		100% {
+		50% {
 		transform: translateX(
 		0px
 		);
@@ -438,13 +438,12 @@
 		}
 		
 		@keyframes moveTruck2 {
-		from {
+		0%, 50% {
 		transform: translateX(0px);
 		}
-		to {
-		transform: translateX(
-		50px
-		);
+		
+		100% {
+		transform: translateX( 50px );
 		}
 		}
 		
@@ -453,10 +452,13 @@
 		}
 		
 		@keyframes moveGift2 {
-		from {
-		transform: translateX(0px);
+		0% {
+		transform: translateX(-10px);
 		}
-		to {
+		50% {
+		transform: translateX( 0px );
+		}
+		100% {
 		transform: translateX(
 		25px
 		);
@@ -934,7 +936,7 @@
 	<g>
 		<g>
 			<circle class=" truck1 st9 spin" cx="235.6" cy="150.6" r="7.9" />
-			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 49.1911 359.0845)" class=" truck1 st10 spin" cx="235.6" cy="150.6" rx="7.9" ry="7.9" />
+			<ellipse class=" truck1 st10 spin" cx="235.6" cy="150.6" rx="7.9" ry="7.9" />
 		</g>
 		<circle class=" truck1 st11 spin" cx="235.6" cy="150.6" r="4" />
 	</g>
@@ -1182,7 +1184,7 @@
 	<g>
 		<g>
 			<circle class=" truck1 st9" cx="164.7" cy="150.6" r="7.9" />
-			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 -10.3382 289.1162)" class=" truck1 st10" cx="164.7" cy="150.6" rx="7.9" ry="7.9" />
+			<ellipse class=" truck1 st10" cx="164.7" cy="150.6" rx="7.9" ry="7.9" />
 		</g>
 		<circle class=" truck1 st11" cx="164.7" cy="150.6" r="4" />
 	</g>

@@ -228,9 +228,9 @@
 		}
 		@keyframes load {
 		0%{transform: translateX(-150px);}
-		1%,94%{opacity: 1;}
-		95%{opacity: 0;}
-		100% {transform: translateX(0px); opacity: 0;}
+		1%,44%{opacity: 1;}
+		45%{opacity: 0;}
+		50%,100% {transform: translateX(0px); opacity: 0;}
 		}
 		
 		@keyframes countUp8 {
@@ -444,7 +444,7 @@
 		0% {
 		transform: translateX(-150px);
 		}
-		100% {
+		50% {
 		transform: translateX(
 		0px
 		);
@@ -456,13 +456,12 @@
 		}
 		
 		@keyframes moveTruck2 {
-		from {
+		0%, 50% {
 		transform: translateX(0px);
 		}
-		to {
-		transform: translateX(
-		50px
-		);
+		
+		100% {
+		transform: translateX( 50px );
 		}
 		}
 		
@@ -471,10 +470,13 @@
 		}
 		
 		@keyframes moveGift2 {
-		from {
-		transform: translateX(0px);
+		0% {
+		transform: translateX(-10px);
 		}
-		to {
+		50% {
+		transform: translateX( 0px );
+		}
+		100% {
 		transform: translateX(
 		25px
 		);
@@ -951,10 +953,10 @@
 	<!-- truck tire front -->
 	<g>
 		<g>
-			<circle class="st12 truck1 spin" cx="235.6" cy="150.6" r="7.9" />
-			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 49.1911 359.0845)" class="st13 truck1 spin" cx="235.6" cy="150.6" rx="7.9" ry="7.9" />
+			<circle class="st12 truck1" cx="235.6" cy="150.6" r="7.9" />
+			<ellipse class="st13 truck1" cx="235.6" cy="150.6" rx="7.9" ry="7.9" />
 		</g>
-		<circle class="st14 truck1 spin" cx="235.6" cy="150.6" r="4" />
+		<circle class="st14 truck1" cx="235.6" cy="150.6" r="4" />
 	</g>
 	<!-- boxes on truck -->
 	<path class="st15 load" d="M161.8,123.1H154c-0.6,0-1.1-0.5-1.1-1.1v-7.8c0-0.6,0.5-1.1,1.1-1.1h7.8c0.6,0,1.1,0.5,1.1,1.1v7.8
@@ -1200,7 +1202,7 @@
 	<g>
 		<g>
 			<circle class="st12 truck1" cx="164.7" cy="150.6" r="7.9" />
-			<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 -10.3382 289.1162)" class="st13 truck1" cx="164.7" cy="150.6" rx="7.9" ry="7.9" />
+			<ellipse class="st13 truck1" cx="164.7" cy="150.6" rx="7.9" ry="7.9" />
 		</g>
 		<circle class="st14 truck1" cx="164.7" cy="150.6" r="4" />
 	</g>
@@ -1316,8 +1318,8 @@
 	<!-- truck 2 tier 1 -->
 	<g>
 		<g>
-			<circle class="st12 truck2 spin" cx="974.2" cy="356" r="7.9" />
-			<circle class="st13 truck2 spin" cx="974.2" cy="356" r="7.9" />
+			<circle class="st12 truck2" cx="974.2" cy="356" r="7.9" />
+			<circle class="st13 truck2" cx="974.2" cy="356" r="7.9" />
 		</g>
 		<circle class="st14 truck2" cx="974.2" cy="356" r="4" />
 	</g>
