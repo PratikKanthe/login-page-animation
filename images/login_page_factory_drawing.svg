@@ -381,10 +381,7 @@
 		opacity: 1;
 		}
 		}
-		
-		
-		
-		
+
 		.up{
 		animation: up 2s linear infinite;
 		}
@@ -413,11 +410,11 @@
 		}
 		
 		@keyframes invisble {
-		0%{
+		0%,50%{
 		opacity: 0;
 		}
-		85%{
-		opacity: 0;
+		55%{
+		opacity: 1;
 		}
 		100%{
 		opacity: 1;
